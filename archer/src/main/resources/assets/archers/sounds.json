@@ -1,0 +1,32 @@
+{
+  "archers_workbench": {
+    "sounds": [
+      "archers:archers_workbench"
+    ]
+  },
+  "entangling_roots": {
+    "sounds": [
+      "archers:entangling_roots"
+    ]
+  },
+  "bow_pull": {
+    "sounds": [
+      "archers:bow_pull"
+    ]
+  },
+  "magic_arrow_impact": {
+    "sounds": [
+      "archers:magic_arrow_impact"
+    ]
+  },
+  "magic_arrow_release": {
+    "sounds": [
+      "archers:magic_arrow_release"
+    ]
+  },
+  "magic_arrow_start": {
+    "sounds": [
+      "archers:magic_arrow_start"
+    ]
+  }
+}

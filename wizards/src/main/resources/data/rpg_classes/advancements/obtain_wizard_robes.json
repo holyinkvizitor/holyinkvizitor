@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "wizards:wizard_robe_chest"
+    },
+    "title": {
+      "translate": "advancements.rpg_classes.obtain_wizard_robes.title"
+    },
+    "description": {
+      "translate": "advancements.rpg_classes.obtain_wizard_robes.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rpg_classes:root",
+  "criteria": {
+    "wizard_robes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wizards:wizard_robe_head"
+            ]
+          },
+          {
+            "items": [
+              "wizards:wizard_robe_chest"
+            ]
+          },
+          {
+            "items": [
+              "wizards:wizard_robe_legs"
+            ]
+          },
+          {
+            "items": [
+              "wizards:wizard_robe_feet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wizard_robes"
+    ]
+  ]
+}

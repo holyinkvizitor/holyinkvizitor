@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.archers.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "screen.AnvilScreenHandlerMixin",
+    "infinity.CrossbowInfinityMixin",
+    "infinity.PlayerCrossbowInfinityMixin",
+    "item.BowItemMixin"
+  ],
+  "client": [
+    "client.autofire.LivingEntityMixin",
+    "client.autofire.MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

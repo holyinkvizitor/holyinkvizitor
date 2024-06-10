@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "S": [
+      {
+        "tag": "c:wood_sticks"
+      },
+      {
+        "item": "minecraft:stick"
+      }
+    ]
+  },
+  "pattern": [
+    " C",
+    "S "
+  ],
+  "result": {
+    "item": "wizards:wand_novice"
+  }
+}

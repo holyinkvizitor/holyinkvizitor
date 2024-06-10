@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "archers",
+  "version": "${version}",
+  "name": "Archers (RPG Series)",
+  "description": "Draw, Release, Conquer - Master the art of Archery!",
+  "authors": [
+    "Daedelus"
+  ],
+  "contributors": [
+    "Ron (Artwork)"
+  ],
+  "contact": {
+    "repo": "https://github.com/ZsoltMolnarrr/Archers",
+    "issues": "https://github.com/ZsoltMolnarrr/Archers/issues"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/archers/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.archers.client.ArchersClientMod"
+    ],
+    "main": [
+      "net.archers.ArchersMod"
+    ],
+    "modmenu": [
+      "net.spell_engine.client.compatibility.ModMenuCompatibility"
+    ]
+  },
+  "mixins": [
+    "archers.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=${minecraft_version}",
+    "fabricloader": ">=${fabric_loader_version}",
+    "azurelibarmor": "*",
+    "spell_engine": ">=${spell_engine_version}",
+    "ranged_weapon_api": ">=${ranged_weapon_api_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/KN9b3pjFTM"
+      }
+    }
+  }
+}

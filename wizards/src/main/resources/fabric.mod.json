@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "wizards",
+  "version": "${version}",
+  "name": "Wizards (RPG Series)",
+  "description": "Destroy your enemies with Arcane, Fire and Frost magic.",
+  "authors": [
+    "Daedelus"
+  ],
+  "contributors": [
+    "Crispytwig (Artwork)"
+  ],
+  "contact": {
+    "repo": "https://github.com/ZsoltMolnarrr/Wizards",
+    "issues": "https://github.com/ZsoltMolnarrr/Wizards/issues"
+  },
+  "license": "All Rights Reserved",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.wizards.fabric.client.FabricClientMod"
+    ],
+    "main": [
+      "net.wizards.fabric.FabricMod"
+    ],
+    "modmenu": [
+      "net.spell_engine.client.compatibility.ModMenuCompatibility"
+    ]
+  },
+  "mixins": [
+    "wizards.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.20.0",
+    "fabricloader": ">=0.14.0",
+    "azurelibarmor": "*",
+    "spell_engine": ">=${spell_engine_version}",
+    "spell_power": "*",
+    "runes": ">=${runes_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/KN9b3pjFTM"
+      }
+    }
+  }
+}

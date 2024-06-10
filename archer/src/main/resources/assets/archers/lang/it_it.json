@@ -1,0 +1,67 @@
+{
+  "itemGroup.archers.general": "Archers",
+  "item.archers.auto_fire_hook.description_1": "Rilascia automaticamente le frecce.",
+  "item.archers.auto_fire_hook.description_2": "Può essere applicato alle armi a distanza.",
+  "item.ranged_weapon.pull_time": "%1$s sec per caricare",
+
+  "block.archers.archers_workbench": "Banco da arcieria",
+  "block.archers.archers_workbench.hint": "Postazione da lavoro per i villici.",
+  "entity.minecraft.villager.archery_artisan": "Fabbricante d'archi",
+  "entity.minecraft.villager.archers:archery_artisan": "Fabbricante d'archi",
+
+  "item.archers.auto_fire_hook": "Colpo automatico",
+
+  "item.archers.flint_spear": "Lancia di selce",
+  "item.archers.iron_spear": "Lancia di ferro",
+  "item.archers.golden_spear": "Lancia d'oro",
+  "item.archers.diamond_spear": "Lancia di diamante",
+  "item.archers.netherite_spear": "Lancia di netherite",
+  "item.archers.aeternium_spear": "Lancia di aeternium",  
+
+  "item.archers.archer_armor_head": "Cappuccio da arciere",
+  "item.archers.archer_armor_chest": "Tunica da arciere",
+  "item.archers.archer_armor_legs": "Pantaloni da arciere",
+  "item.archers.archer_armor_feet": "Stivali da arciere",
+
+  "item.archers.ranger_armor_head": "Cappuccio da tiratore",
+  "item.archers.ranger_armor_chest": "Tunica da tiratore",
+  "item.archers.ranger_armor_legs": "Pantaloni da tiratore",
+  "item.archers.ranger_armor_feet": "Stivali da tiratore",
+
+  "item.archers.composite_longbow": "Arco composito",
+  "item.archers.mechanic_shortbow": "Arco corto meccanico",
+  "item.archers.royal_longbow": "Arco lungo raffinato",
+  "item.archers.rapid_crossbow": "Balestra leggera",
+  "item.archers.heavy_crossbow": "Balestra pesante",
+  "item.archers.netherite_shortbow": "Arco corto di netherite",
+  "item.archers.netherite_longbow": "Arco lungo di netherite",
+  "item.archers.netherite_rapid_crossbow": "Balestra leggera di netherite",
+  "item.archers.netherite_heavy_crossbow": "Balestra pesante di netherite",
+  "item.archers.crystal_shortbow": "Arco corto di cristallo",
+  "item.archers.crystal_longbow": "Arco lungo di cristallo",
+  "item.archers.ruby_rapid_crossbow": "Balestra leggera di rubino",
+  "item.archers.ruby_heavy_crossbow": "Balestra pesante di rubino",  
+
+  "item.archers.archer_spell_book": "Manuale di tiro",
+
+  "spell.archers.power_shot.name": "Colpo potente",
+  "spell.archers.power_shot.description": "Scocca una potente freccia e infligge al bersaglio il Marchio del cacciatore per {effect_duration} secondi, aumentandone i danni subiti del 5%, accumulandosi fino a {effect_amplifier} volte.",
+  "effect.archers.hunters_mark": "Marchiato",
+  "effect.archers.hunters_mark.description": "Aumenta i danni di qualsiasi tipo ricevuti del 5%%",  
+
+  "spell.archers.entangling_roots.name": "Radici",
+  "spell.archers.entangling_roots.description": "Evoca radici che germogliano dal terreno nell'area vicina, rallentando i nemici per {cloud_duration} secondi.",
+  "effect.archers.entangling_roots": "Impigliato",
+  "effect.archers.entangling_roots.description": "Riduce la velocità di movimento",  
+  
+  "spell.archers.barrage.name": "Sbarramento",
+  "spell.archers.barrage.description": "Spara frecce multiple in rapida successione.",
+  
+  "spell.archers.barrage.name": "Sbarramento",
+  "spell.archers.barrage.description": "Scaglia frecce multiple in rapida successione.",
+
+  "advancements.rpg_classes.obtain_arrow.title": "Via dell'arciere",
+  "advancements.rpg_classes.obtain_arrow.description": "Ottieni una freccia",
+  "advancements.rpg_classes.archer_mastery.title": "Esperto balistico",
+  "advancements.rpg_classes.archer_mastery.description": "Completa il manuale di tiro"
+}

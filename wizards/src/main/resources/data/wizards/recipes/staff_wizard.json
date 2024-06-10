@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "S": [
+      {
+        "tag": "c:wood_sticks"
+      },
+      {
+        "item": "minecraft:stick"
+      }
+    ]
+  },
+  "pattern": [
+    "  Q",
+    " S ",
+    "S  "
+  ],
+  "result": {
+    "item": "wizards:staff_wizard"
+  }
+}
